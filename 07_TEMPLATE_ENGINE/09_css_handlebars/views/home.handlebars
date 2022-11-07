@@ -1,0 +1,14 @@
+<h1>Hello, Handlebars!</h1>
+{{#if approved}}
+  <p>Congrats! Your registration was approved!</p>
+{{else}}
+  <p>Sorry! You are not approved!</p>
+{{/if}}
+<p>The user is <strong>{{user.name}} {{user.surname}}</strong></p>
+<p>She is <strong>{{user.age}}</strong></p>
+<p>A random word is <strong>{{word}}</strong></p>
+<p><a href="/post">POSTS</a></p>
+<p><a href="/blog">BLOG</a></p>
+{{#if auth}}
+  <p>You are authenticated, click <a href="/dashboard">here</a> to access the members area</p>
+{{/if}}
