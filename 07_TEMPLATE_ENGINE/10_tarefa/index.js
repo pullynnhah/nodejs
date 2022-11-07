@@ -19,9 +19,7 @@ app.get("/products/:id", (req, res) => {
   let { id } = req.params;
   id = Number(id);
   const item = products.find(({ id: idProd }) => idProd === id);
-  if (item) {
-    res.render("product", { products: [item] });
-  }
+  res.render("product", { products: [item] });
 });
 
 app.use((req, res, next) => res.status(404).render("404"));
