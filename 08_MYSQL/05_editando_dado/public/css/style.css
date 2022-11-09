@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Mali", cursive;
+  background: linear-gradient(#ff9671, #ffc75f, #f9f871);
+}
+
+ul {
+  height: 80px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: 50px;
+}
+h1 {
+  color: #be3300;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0 50px;
+  text-align: center;
+}
+
+form {
+  width: 70vw;
+  border: 5px solid #be3300;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.form-control {
+  margin: 10px;
+}
+label {
+  color: #ff4501;
+  font-size: 20px;
+}
+
+input {
+  color: #be3300;
+  background-color: #ffc75f;
+  font-size: 20px;
+  line-height: 26px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type="text"] {
+  width: 50vw;
+}
+
+input[type="number"] {
+  width: 60px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 25px 0;
+  text-align: center;
+  transition: all 600ms;
+  cursor: pointer;
+  background-color: #be3300;
+  color: #f9f871;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.page-link {
+  display: block;
+  width: fit-content;
+  color: #be3300;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin: 20px auto 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.books-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.books-container div {
+  background-color: #be3300;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: #ffc75f;
+  margin: 20px;
+}
+
+small {
+  font-size: 24px;
+}
+
+strong {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.books-container p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.books-container a {
+  display: flex;
+  gap: 20px;
+}
+
+.desc {
+  width: 60vw;
+  color: #333;
+  margin: 0 auto;
+}
+
+.page {
+  width: fit-content;
+  margin: 30px auto;
+  font-size: 24px;
+}
